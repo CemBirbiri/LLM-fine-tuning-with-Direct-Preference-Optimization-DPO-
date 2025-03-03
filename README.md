@@ -2,7 +2,7 @@
 
 ![Screenshot 2025-03-01 145638](https://github.com/user-attachments/assets/fdc59b58-914f-446f-bf68-b26c4ea7b098)
 
-The image is created using GPT 4o
+The image is created using GPT 4o.
 
 In this article we will cover how to fine-tune LLMs with Direct Preference Optimization (DPO) with codes. 
 
@@ -34,7 +34,7 @@ The image is taken [from the original DPO paper.](https://arxiv.org/pdf/2305.18
 - Construct a dataset tailored for DPO.
 - Understand the required data format for DPO applications.
 - Implement DPO by following a structured, step-by-step approach using the trl library.
-- Define training parameters, initialize a quantized LoRA base model, and train it using a DPO trainer.
+- Define training parameters, initialize a LoRA base model, and train it using a DPO trainer.
 - Evaluate the LLM's performance before and after applying DPO.
 
 Install libraries
